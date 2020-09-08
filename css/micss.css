@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+
+nav.bg-transparent {
+    background: transparent;
+    
+    height: 120px;
+
+    transition: all .3s ease;
+}
+
+
+nav ul {
+    transition: all .6s ease;
+}
+
+
+nav ul li.nav-item a {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #f1f1f1 !important;
+
+    transition: all .3s ease;
+}
+
+
+nav ul li.nav-item a:hover {
+    color: #3498db !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, .5);
+}
+
+
+img#logo {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    padding: 0 10px;
+
+    transition: all .9s ease;
+}
+
+
+header.hero {
+    background: url("../img/1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.conten-title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+
+
+main {
+    position: relative;
+    margin-top: 140px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES ---------------------------------------- */
+
+@media only screen and (min-width: 992px) {
+
+    .nav-scroll {
+        margin: 0 35px;
+
+        transition: all .6s ease;
+    }
+
+    
+    .logo {
+        display: block !important;
+
+        transition: all .9s ease;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    img#logo {
+        display: none !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
